@@ -81,7 +81,7 @@ cv2.imshow("Thresh_trunc",thresh5)
 """
 
 # Brightness and Sharpness
-
+"""
 gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 brightness=cv2.convertScaleAbs(img,beta=+120)
 kernal=np.array([[-1,-1,-1],[-1,-9.5,-1],[-1,-1,-1]])
@@ -91,7 +91,7 @@ cv2.imshow("original_img",img)
 cv2.imshow("gray_img",gray)
 cv2.imshow("bright_img",brightness)
 cv2.imshow("sharp_img",sharpness)
-
+"""
 
 
 
